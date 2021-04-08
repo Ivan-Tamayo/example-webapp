@@ -14,6 +14,6 @@ public class Hello {
 @Produces("text/plain")
 public Response index() throws Exception {
     String host = InetAddress.getLocalHost().getHostName();
-    return Response.ok("Bonjour Leanovia, Depuis la machine ...\n "  + "Hôte:\t"+ host+"\n\n\nGloire à l'empire. ").build();
+    return Response.ok("Bonjour Leanovia, Depuis la machine ...\n "  + "Hôte:\t"+ host+"\n\n\nGloire à l'empire.\n\n").build();
   }
 }
